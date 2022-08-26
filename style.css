@@ -28,19 +28,50 @@ body{
 	padding-top: 2vh;
 }
 .title{
-	font-size: 4vh;
+	font-size: 3.8vh;
 	color: hsl(212, 21%, 14%);
 	font-family: 'Fraunces', serif;
-	padding-right: 2vh;
+	padding-right: 4vh;
 }
 .description{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2vh;
+	color: hsl(228, 12%, 48%);
+	font-size: 1.7vh;
+	padding-right: 4vh;
+	line-height: 160%;
+}
+.price{
+	display: flex;
+	flex-direction: row;
+}
+.first{
+	font-size: 4vh;
+	font-family: 'Fraunces', serif;
+	color: hsl(158, 36%, 37%);
+}
+.second{
+	display: flex;
+	align-items: center;
+	font-size: 1.4vh;
+	font-family: 'Fraunces', serif;
+	color: hsl(228, 12%, 48%);
+	padding-left: 1vh;
+	text-decoration-line: line-through;
 }
 .product-image{
 	width: 32vh;
 	height: 50vh;
 	border-radius: 3% 0% 0% 3%;
+}
+.purshase{
+	display: flex;
+	justify-content: center;
+	border: none;
+	background-color: hsl(158, 36%, 37%);
+	color: white;
+	border-radius: 1vh;
+	height: 5.5vh;
+	width: 25vh;
 }
 .attribution {
 	font-size: 11px; text-align: center; }
