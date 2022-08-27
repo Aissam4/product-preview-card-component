@@ -94,10 +94,22 @@ body{
 }
 @media only screen and (max-width: 750px)
 {
-	.product-image {
-		width: 32vh;
-		height: 50vh;
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding-left: 4vh;
+		padding-right: 1vh;
 	}
+	.product-image{
+		width: 37vh;
+		height: 50vh;
+		border-radius: 3% 3% 0% 0%;
+	}
+	.card{
+		border-radius: 0% 0% 3% 3%;
+	}
+
 }
 .attribution {
 	font-size: 11px; text-align: center; }
