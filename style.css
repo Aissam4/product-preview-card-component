@@ -17,7 +17,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	padding-left: 2vh;
+	padding-left: 4vh;
 	padding-right: 1vh;
 }
 .perfume{
@@ -32,6 +32,7 @@ body{
 	color: hsl(212, 21%, 14%);
 	font-family: 'Fraunces', serif;
 	padding-right: 4vh;
+	line-height: 3.4vh;
 }
 .description{
 	font-family: 'Montserrat', sans-serif;
@@ -43,9 +44,11 @@ body{
 .price{
 	display: flex;
 	flex-direction: row;
+	list-style-type: none;
+	width: 100%;
 }
 .first{
-	font-size: 4vh;
+	font-size: 3.5vh;
 	font-family: 'Fraunces', serif;
 	color: hsl(158, 36%, 37%);
 }
@@ -63,6 +66,13 @@ body{
 	height: 50vh;
 	border-radius: 3% 0% 0% 3%;
 }
+.button{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	width: 90%;
+	height: 10vh;
+}
 .purshase{
 	display: flex;
 	justify-content: center;
@@ -70,8 +80,15 @@ body{
 	background-color: hsl(158, 36%, 37%);
 	color: white;
 	border-radius: 1vh;
-	height: 5.5vh;
-	width: 25vh;
+	height: 55%;
+	width: 100%;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5vh;
+	font-weight: bold;
+}
+.icon{
+	padding: 10px;
 }
 .attribution {
 	font-size: 11px; text-align: center; }
