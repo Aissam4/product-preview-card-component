@@ -8,7 +8,6 @@ body{
 	flex-direction: row;
 	background-color: hsl(30, 38%, 92%);
 }
-
 .card{
 	width: 32vh;
 	height: 50vh;
@@ -87,8 +86,18 @@ body{
 	font-size: 1.5vh;
 	font-weight: bold;
 }
+.purshase:hover{
+	background-color: hsl(158, 36%, 24%);
+}
 .icon{
 	padding: 10px;
+}
+@media only screen and (max-width: 750px)
+{
+	.product-image {
+		width: 32vh;
+		height: 50vh;
+	}
 }
 .attribution {
 	font-size: 11px; text-align: center; }
