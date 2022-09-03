@@ -6,4 +6,4 @@
 
 Thanks for checking out this front-end coding challenge.
 
-**Have fun building!** 🚀
+**You can discover the challenge <a href="https://630a94141b8fa54b38654c8f--resonant-paletas-0abfd6.netlify.app/" target="_blank">Here</a>** 🚀
